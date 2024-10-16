@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMULARIO</h1>
+    <form action=>
+        <label for="">Nombre</label> <input type="text" required maxlength="7">
+        <label for="">Apellidos</label> <input type="text" required>
+        <label for="">Edad</label> <input type="number" min="18">
+        <label for="">Teléfono</label> <input type="tel" >
+        <label for="">Sitio web</label> <input type="url">
+        <label for="">Email</label> <input type="email">
+        <label for="">Contraseña</label> <input type="password">
+        <label for=""></label> <input type="checkbox" name="casilla" id="coche">  Marcar si tienes coche
+        <label for=""><input type="radio" name="generos" id="m">mujer <input type="radio" name="generos" id="h">hombre <input type="radio" name="generos" id="o">otro
+        </label>
+        <label for="">
+            <p>mes de nacimiento</p>
+            <select name="" id=""> 
+                <option value="0" selected disabled></option>
+                <option value="1">enero</option>
+                <option value="2">febrero</option>
+                <option value="3">marzo</option>
+                <option value="4">abril</option>
+                <option value="5">mayo</option>
+                <option value="6">junio</option>
+                <option value="7">julio</option>
+                <option value="8">agosto</option>
+                <option value="9">septiembre</option>
+                <option value="10">octubre</option>
+                <option value="11">noviembre</option>
+                <option value="12">dicciembre</option>
+            </select>
+        </label>
+        <label for="">
+            <p>pais de nacimiento</p>
+            <select name="" id="">
+                <optgroup label="Europa"> 
+                    <option value="">españa</option>
+                    <option value="">italia</option>
+                    <option value="">francia</option>
+                </optgroup>
+                <optgroup label="América">
+                    <option value="">usa</option>
+                    <option value="">argentina</option>
+                    <option value="">peru</option>
+                </optgroup>
+            </select>
+        </label>
+        <label for="">
+            <p>que instrumento tocas</p>
+            <select name="" id="" multiple>
+                <option value="">guitarra</option>
+                <option value="">flauta</option>
+                <option value="">violin</option>
+                <option value="">piano</option>
+            </select>
+        </label>
+        <label for="">
+            <p>Otra información</p>
+            <textarea name="masinfo" id="masinfo" rows="10" cols="64"></textarea>
+        </label>
+        <br>   
+       
+        <input type="submit">
+        <input type="reset" value="Resetear">
+        
+    </form>
+</body>
+</html>
