@@ -1,0 +1,12 @@
+*{
+    background-color: yellow;
+}
+h1{
+    background-color: green;
+}
+p.fondoazul{
+    background-color: blue;
+}
+p#uniconaranja{
+    background-color: orangered;
+}

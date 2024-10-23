@@ -8,14 +8,14 @@
 <body>
     <h1>FORMULARIO</h1>
     <form action=>
-        <label for="">Nombre</label> <input type="text" required maxlength="7">
-        <label for="">Apellidos</label> <input type="text" required>
-        <label for="">Edad</label> <input type="number" min="18">
-        <label for="">Teléfono</label> <input type="tel" >
-        <label for="">Sitio web</label> <input type="url">
-        <label for="">Email</label> <input type="email">
-        <label for="">Contraseña</label> <input type="password">
-        <label for=""></label> <input type="checkbox" name="casilla" id="coche">  Marcar si tienes coche
+        <label for="nom">Nombre</label> <input type="text" required maxlength="7" id="nom">
+        <label for="ape">Apellidos</label> <input type="text" required id="ape">
+        <label for="num">Edad</label> <input type="number" min="18" max="100" id="num">
+        <label for="tel">Teléfono</label> <input type="tel" id="tel">
+        <label for="url">Sitio web</label> <input type="url" id="url">
+        <label for="mail">Email</label> <input type="email" id="mail">
+        <label for="cont">Contraseña</label> <input type="password" id="cont">
+        <label for="coche">Marcar si tienes coche</label> <input type="checkbox" name="casilla" id="coche">  
         <label for=""><input type="radio" name="generos" id="m">mujer <input type="radio" name="generos" id="h">hombre <input type="radio" name="generos" id="o">otro
         </label>
         <p>elije tu color favorito</p>
@@ -25,7 +25,7 @@
             <select name="" id=""> 
                 <option value="0" selected disabled></option>
                 <option value="1">enero</option>
-                <option value="2">febrero</option>
+                <option value="2">febrero</option> 
                 <option value="3">marzo</option>
                 <option value="4">abril</option>
                 <option value="5">mayo</option>
