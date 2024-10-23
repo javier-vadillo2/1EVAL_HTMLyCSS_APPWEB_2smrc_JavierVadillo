@@ -10,3 +10,12 @@ p.fondoazul{
 p#uniconaranja{
     background-color: orangered;
 }
+footer p{
+    color: rebeccapurple;
+}
+footer{
+    border-width: 5px;
+    border-color: magenta;
+    border-style: dotted;
+    margin: ;
+}
